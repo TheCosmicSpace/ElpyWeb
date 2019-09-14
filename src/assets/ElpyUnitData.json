@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Beach",
+        "bgImage": "beach.jpeg",
+        "activColor": "#5AE3FF",
+        "sounds": "beach.mp3"
+    },
+    {
+        "title": "Birds",
+        "bgImage": "birds.jpeg",
+        "activColor": "#FCF44C",
+        "sounds": "birds.mp3"
+    },
+    {
+        "title": "Cafe",
+        "bgImage": "cafe.jpeg",
+        "activColor": "#F9CF05",
+        "sounds": "cafe.mp3"
+    },
+    {
+        "title": "City",
+        "bgImage": "city.jpeg",
+        "activColor": "#FCB680",
+        "sounds": "city.mp3"
+    },
+    {
+        "title": "Forest",
+        "bgImage": "forest.jpeg",
+        "activColor": "#74DC74",
+        "sounds": "forest.mp3"
+    },
+    {
+        "title": "Heavy Rain",
+        "bgImage": "heavy-rain.jpeg",
+        "activColor": "#779CFF",
+        "sounds": "heavy-rain.mp3"
+    },
+    {
+        "title": "Night Crickets",
+        "bgImage": "night-crickets.jpeg",
+        "activColor": "#D5B5F6",
+        "sounds": "night-crickets.mp3"
+    },
+    {
+        "title": "Rain",
+        "bgImage": "rain.jpeg",
+        "activColor": "#B4E4FC",
+        "sounds": "rain.wav"
+    },
+    {
+        "title": "Rain, Camping",
+        "bgImage": "rain-camping.jpeg",
+        "activColor": "#62E6A7",
+        "sounds": "rain-camping.mp3"
+    },
+    {
+        "title": "Rain, Windshield",
+        "bgImage": "rain-windshield.jpeg",
+        "activColor": "#F4BF71",
+        "sounds": "rain-windshield.mp3"
+    },
+    {
+        "title": "Snow",
+        "bgImage": "snow.jpeg",
+        "activColor": "#D6E1E6",
+        "sounds": "snow.mp3"
+    },
+    {
+        "title": "Train",
+        "bgImage": "train.jpeg",
+        "activColor": "#F54D55",
+        "sounds": "train.mp3"
+    },
+    {
+        "title": "Thunder",
+        "bgImage": "thunder.jpeg",
+        "activColor": "#ABB5D5",
+        "sounds": "thunder.mp3"
+    },
+    {
+        "title": "Wind",
+        "bgImage": "wind.jpeg",
+        "activColor": "#44FACC",
+        "sounds": "wind.mp3"
+    }
+]

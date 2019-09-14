@@ -1,0 +1,92 @@
+[
+  {
+    "setTitle": "Late Storm",
+    "set": [
+      {
+        "unitTitle": "Thunder",
+        "activColor": "#ABB5D5",
+        "volume": "1"
+      },
+      {
+        "unitTitle": "Heavy Rain",
+        "activColor": "#779CFF",
+        "volume": "0.3"
+      },
+      {
+        "unitTitle": "Night Crickets",
+        "activColor": "#D5B5F6",
+        "volume": "0.2"
+      }
+    ]
+  },
+  {
+    "setTitle": "Rain In The Forest",
+    "set": [
+      {
+        "unitTitle": "Forest",
+        "activColor": "#74DC74",
+        "volume": "0.3"
+      },
+      {
+        "unitTitle": "Rain, Camping",
+        "activColor": "#62E6A7",
+        "volume": "0.5"
+      },
+      {
+        "unitTitle": "Birds",
+        "activColor": "#FCF44C",
+        "volume": "0.2"
+      }
+    ]
+  },
+  {
+    "setTitle": "Cafe By The Beach",
+    "set": [
+      {
+        "unitTitle": "Cafe",
+        "activColor": "#F9CF05",
+        "volume": "0.6"
+      },
+      {
+        "unitTitle": "Beach",
+        "activColor": "#5AE3FF",
+        "volume": "0.1"
+      }
+    ]
+  },
+  {
+    "setTitle": "On Top Of The City",
+    "set": [
+      {
+        "unitTitle": "City",
+        "activColor": "#FCB680",
+        "volume": "0.2"
+      },
+      {
+        "unitTitle": "Wind",
+        "activColor": "#44FACC",
+        "volume": "0.5"
+      }
+    ]
+  },
+  {
+    "setTitle": "Thunder Rain",
+    "set": [
+      {
+        "unitTitle": "Rain, Camping",
+        "activColor": "#62E6A7",
+        "volume": "0.4"
+      },
+      {
+        "unitTitle": "Thunder",
+        "activColor": "#ABB5D5",
+        "volume": "0.3"
+      },
+      {
+        "unitTitle": "Wind",
+        "activColor": "#44FACC",
+        "volume": "0.2"
+      }
+    ]
+  }
+]
