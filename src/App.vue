@@ -24,7 +24,7 @@
   </div>
 </template>
 
-<script>
+<script module>
 import Vue from 'vue'
 /*import Howler*/
 import {Howl, Howler} from 'howler';

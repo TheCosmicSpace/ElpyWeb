@@ -1,6 +1,7 @@
 <template>
   <div class="box-item">
      <div class="flip-box">
+      <div class="preloader"></div>
       <div class="flip-box-front text-center" :style="getBackgroundImg">
         <div class="item-bg" :style="getBackgroundFrontEmpty">
           <div class="inner">
@@ -107,6 +108,7 @@ export default {
   -o-user-select: none;
   user-select: none;
 }
+
 .flip-box {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -114,6 +116,28 @@ export default {
   perspective: 1000px;
   -webkit-perspective: 1000px;
 }
+/*preloader*/
+.preloader {
+  border-top: 2px solid #d0d9df; /* Blue */
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* z-index: 1; */
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%,-50%) rotate(360deg);
+  }
+}
+
 .flip-box-front,
 .flip-box-back {
   background-size: cover;
@@ -125,8 +149,10 @@ export default {
   -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  z-index: 2;
 }
 .flip-box-front {
+  position: relative;
   -ms-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
@@ -134,6 +160,8 @@ export default {
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
+
+
 .flip-box:hover .flip-box-front {
   -ms-transform: rotateY(-180deg);
   -webkit-transform: rotateY(-180deg);
@@ -209,5 +237,4 @@ export default {
     height: 135px;
   }
 }
-
 </style>

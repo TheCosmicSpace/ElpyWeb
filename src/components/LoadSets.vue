@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style  scoped>
 /* ====Disclaimer==== */
 /*-----my style is bad------*/
 
