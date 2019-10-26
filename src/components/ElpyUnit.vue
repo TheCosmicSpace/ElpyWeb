@@ -96,6 +96,8 @@ export default {
 .box-item {
   position: relative;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
   max-width: 180px;
   margin-bottom: 35px;
   width: 50%;
@@ -111,10 +113,13 @@ export default {
 
 .flip-box {
   -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   perspective: 1000px;
   -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  
 }
 /*preloader*/
 .preloader {
@@ -145,29 +150,35 @@ export default {
   border-radius: 10px;
   height: 180px;
   -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
+  -moz-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
   transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
   -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
   -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   z-index: 2;
 }
 .flip-box-front {
   position: relative;
   -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
   -webkit-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
 
 .flip-box:hover .flip-box-front {
   -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
   -webkit-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
   -webkit-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 .flip-box-back {
@@ -177,18 +188,22 @@ export default {
   width: 100%;
   
   -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 .flip-box:hover .flip-box-back {
   -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
   -webkit-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 .item-bg{
@@ -203,12 +218,14 @@ export default {
   padding: 5px;
   outline: 1px solid transparent;
   -webkit-perspective: inherit;
+  -moz-perspective: inherit;
   perspective: inherit;
   z-index: 2;
   
   transform: translateY(-50%) translateZ(60px) scale(.94);
   -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
   -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
+  -moz-transform: translateY(-50%) translateZ(60px) scale(.94);
   top: 50%;
 }
 .flip-box .inner img{

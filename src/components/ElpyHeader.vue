@@ -3,7 +3,7 @@
     <header class="header">
         <div class="author d-flex">
           ElpyWeb by Admin 
-          <a href="https://github.com/TheAdminPro" target="_blank">
+          <a href="https://github.com/TheAdminPro/ElpyWeb" target="_blank">
             <img src="@/../static/icons/github.svg" alt="github-logo">
           </a>
         </div>
@@ -280,7 +280,7 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
     outline: none;
 }
 .master-volume-range::-webkit-slider-runnable-track,
-.sub-item-range::-webkit-slider-runnable-track {
+.sub-item-range::-webkit-slider-runnable-track{
     height: 20px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -288,7 +288,9 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
     color: #fff;
 }
 .master-volume-range::-webkit-slider-thumb,
-.sub-item-range::-webkit-slider-thumb {
+/*.master-volume-range::-moz-range-thumb,*/
+.sub-item-range::-webkit-slider-thumb
+/*.sub-item-range::-moz-range-thumb*/{
     width: 0px;
     height: 0px;
     -webkit-appearance: none;
@@ -297,7 +299,17 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
     cursor: ew-resize;
     box-shadow: -100px 0 0 100px #fff;
 }
-.sub-item-range::-webkit-slider-thumb{
+.master-volume-range::-moz-range-thumb{
+    width: 0px;
+    height: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: ew-resize;
+    box-shadow: -100px 0 0 100px #fff;
+}
+.sub-item-range::-webkit-slider-thumb,
+.sub-item-range::-moz-range-thumb{
     width: 0px;
     height: 0px;
     -webkit-appearance: none;
@@ -306,14 +318,14 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
     cursor: ew-resize;
     box-shadow: -65px 0 0 65px #fff;
 }
-.master-volume-range::-moz-range-progress,
+/* .master-volume-range::-moz-range-progress,
 .sub-item-range::-moz-range-progress {
     background-color: #fff;
-}
-.master-volume-range::-moz-range-track,
+} */
+/* .master-volume-range::-moz-range-track,
 .sub-item-range::-moz-range-track {
     background-color: #333;
-}
+} */
 .master-volume-range::-ms-fill-lower,
 .sub-item-range::-ms-fill-lower {
     background-color: #fff;
