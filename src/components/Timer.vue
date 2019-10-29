@@ -191,7 +191,7 @@ export default {
 	align-items: center;
 	border: 1px solid #333;
 	border-radius: 28px;
-	transition: background .2s linear;
+	transition: .2s linear;
 	margin: 0 5px; 
 	font-size: 25px;
 }
@@ -251,5 +251,16 @@ export default {
 		right: 33px;	
 	}
 }
-
+@media screen and (max-height: 605px) {
+	.pop-up{
+		padding: 25px 0;
+	}
+	.pop-up-title{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.set-item{
+		margin-bottom: 5px;
+	}
+}
 </style>
