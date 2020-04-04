@@ -1,85 +1,85 @@
 [
     {
         "title": "Beach",
-        "bgImage": "beach.jpeg",
+        "bgImage": "beach.jpg",
         "activColor": "#5AE3FF",
         "sounds": "beach.mp3"
     },
     {
         "title": "Birds",
-        "bgImage": "birds.jpeg",
+        "bgImage": "birds.jpg",
         "activColor": "#FCF44C",
         "sounds": "birds.mp3"
     },
     {
         "title": "Cafe",
-        "bgImage": "cafe.jpeg",
+        "bgImage": "cafe.jpg",
         "activColor": "#F9CF05",
         "sounds": "cafe.mp3"
     },
     {
         "title": "City",
-        "bgImage": "city.jpeg",
+        "bgImage": "city.jpg",
         "activColor": "#FCB680",
         "sounds": "city.mp3"
     },
     {
         "title": "Forest",
-        "bgImage": "forest.jpeg",
+        "bgImage": "forest.jpg",
         "activColor": "#74DC74",
         "sounds": "forest.mp3"
     },
     {
         "title": "Heavy Rain",
-        "bgImage": "heavy-rain.jpeg",
+        "bgImage": "heavy-rain.jpg",
         "activColor": "#779CFF",
         "sounds": "heavy-rain.mp3"
     },
     {
         "title": "Night Crickets",
-        "bgImage": "night-crickets.jpeg",
+        "bgImage": "night-crickets.jpg",
         "activColor": "#D5B5F6",
         "sounds": "night-crickets.mp3"
     },
     {
         "title": "Rain",
-        "bgImage": "rain.jpeg",
+        "bgImage": "rain.jpg",
         "activColor": "#B4E4FC",
         "sounds": "rain.wav"
     },
     {
         "title": "Rain, Camping",
-        "bgImage": "rain-camping.jpeg",
+        "bgImage": "rain-camping.jpg",
         "activColor": "#62E6A7",
         "sounds": "rain-camping.mp3"
     },
     {
         "title": "Rain, Windshield",
-        "bgImage": "rain-windshield.jpeg",
+        "bgImage": "rain-windshield.jpg",
         "activColor": "#F4BF71",
         "sounds": "rain-windshield.mp3"
     },
     {
         "title": "Snow",
-        "bgImage": "snow.jpeg",
+        "bgImage": "snow.jpg",
         "activColor": "#D6E1E6",
         "sounds": "snow.mp3"
     },
     {
         "title": "Train",
-        "bgImage": "train.jpeg",
+        "bgImage": "train.jpg",
         "activColor": "#F54D55",
         "sounds": "train.mp3"
     },
     {
         "title": "Thunder",
-        "bgImage": "thunder.jpeg",
+        "bgImage": "thunder.jpg",
         "activColor": "#ABB5D5",
         "sounds": "thunder.mp3"
     },
     {
         "title": "Wind",
-        "bgImage": "wind.jpeg",
+        "bgImage": "wind.jpg",
         "activColor": "#44FACC",
         "sounds": "wind.mp3"
     }
